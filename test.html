@@ -1,135 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<title>index</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="Description" lang="en" content="A dentist website">
-		<meta name="author" content="Frank">
-		<meta name="robots" content="index, follow">
+<html>
+<head> 
+	<title>test.html Website</title>
+	<link href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
 
-		<!-- Override CSS file - add your own CSS rules -->
-		<link rel="stylesheet" href="css/styles.css">
-	</head>
-	
-	
-	
-	<body>
-		<div class="container">
-		
-			<div class="header">
-				<h1 class="header-heading" id="top">Style Showdown!</h1>
+<body>
+	<header>
+		<div class="logo">
+			<a href="test.html">Style Showdown</a>
+			<div class="nav_bar">
+				<ul>
+					<li><a href="#">New Anime</a></li>
+					<li><a href="#">popular</a></li>
+					<li><a href="#">anime list</a></li>
+					<li><a href="#">extra</a></li>
+
+				</ul>
 			</div>
-
-			<!--
-			<div class="nav-bar">
-				<ul class="nav">
-					<li><a href="index.html">Home</a></li>
-					<li><a href="aboutFounder.html">The Founder</a></li>
-					<li><a href="video.html">Videos</a></li>
-					<li><a href="usVThem.html">Us VS Others</a></li>
-					<li><a href="fourm.html">Contact Us</a></li>
-					<li><a href="appointment.html">Schedule</a></li>
-					<li><a href="locations.html">Locations</a></li>
-										
-				</ul>			
-			</div>
-			-->
-			
-			<div class="navbar">				
-				<div class="dropdown">
-					<button class="dropbtn"><a href="index.html">Home</a>
-						<i class="fa fa-caret-down"></i>
-					</button>
-					
-					<div class="dropdown-content">
-						<a href="index.html#quality">Quality Assurance</a>
-						<a href="index.html#assistive">Assistive Insurance</a>
-						<a href="index.html#beneficial">NW Locations</a>
-					</div>
-				</div>
-				
-				<div class="dropdown">
-					<button class="dropbtn"><a href="aboutFounder.html">The Founder</a>
-						<i class="fa fa-caret-down"></i>
-					</button>
-					
-					<div class="dropdown-content">
-						<a href="aboutFounder.html#life1">Early Life</a>
-						<a href="aboutFounder.html#life2">Mid Early Life</a>
-						<a href="aboutFounder.html#life3">Mid Life</a>
-						<a href="aboutFounder.html#life4">Mid Late Life</a>
-						<a href="aboutFounder.html#life5">Late Life</a>
-						<a href="aboutFounder.html#life6">Legacy</a>
-					</div>
-				</div>
-				
-				<a href="video.html">Videos</a>
-				<a href="usVThem.html">Us VS Others</a>
-				<a href="fourm.html">Contact Us</a>		
-				
-				<div class="dropdown">
-					<button class="dropbtn"><a href="appointment.html">Schedule</a>
-						<i class="fa fa-caret-down"></i>
-					</button>
-					
-					<div class="dropdown-content">
-						<a href="appointment.html#office">Operating Hours</a>
-						<a href="appointment.html#cell">Cellular Hours</a>
-					</div>
-				</div>			
-				
-				<a href="locations.html">Locations</a>
-			</div>
-			
-			
-			
-			
-			<div class="content">
-				<div class="main">
-					<h1>Index</h1>
-					<hr>
-
-					<!-- Paragraphs -->
-					<h2>Welcome!</h2>
-					<p>Welcome to the style showdown webpage! Here is where we will be giving you the option to pick who the best fighter is! We have chosen some of the best characters from some of our favorite shows. Help us out and choose who you think will be the best fighter!</p>
-					<hr>
-					<img src="images/indexImage.png" alt="indexImage.png" width="700px">
-					<hr>
-						<h3 id="quality">Voting</h3>
-						<br>Voted the best dentist office in of Renton by The Washington Board of Dentistry. Our skilled providers use the most cutting-edge advanced technology in the field of dentistry to bring personalized treatment to improve your oral health.</br>
-						<p></p>
-						<p><a href="video.html" class="btn">Learn more</a></p>
-						
-						<hr>
-						
-						<h3 id="assistive">Assistive Insurance</h3>
-						<br>No limits on your treatments so being able to cover all your deductibles will not be an issue. Compatible with multiple insurance companies around the country so you never have to worry about any holes in your coverage. </br>
-						
-						<hr>
-						
-						<h3 id="beneficial">Beneficial Northwest Locations</h3>
-						<br>Convenient for you and your loved ones. We have 50+ general and specialized locations all over Washington state so you never have to worry wherever you go. </br>
-						<p></p>						
-						<p><a href="locations.html" class="btn">Learn more</a></p>
-
-
-						<hr>
-					
-						<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-
-				</div>
-			</div>
-
-			
-			<div class="footer">
-				<a href="#top">Back to top</a>
-				
-			</div>
-			
-			
-			
-			
 		</div>
-	</body>
+	</header>
+
+	<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+		<div class="carousel-indicators">
+		  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+		  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+		  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+		</div>
+		<div class="carousel-inner">
+		  <div class="carousel-item active" data-bs-interval="10000">
+			<img src="images/indexImage.jpg" class="d-block w-100" alt="images/indexImage.jpg">
+			<div class="carousel-caption d-none d-md-block">
+				<div class="box">
+					<h1>Character 1</h1>
+					<p>The first character goes here</p>
+				</div>
+			</div>
+		  </div>
+
+		  <div class="carousel-item" data-bs-interval="2000">
+			<img src="images/indexImage2.jpg" class="d-block w-100" alt="images/indexImage2.jpg">
+			<div class="carousel-caption d-none d-md-block">
+			  <h5>Second slide label</h5>
+			  <p>Some representative placeholder content for the second slide.</p>
+			</div>
+		  </div>
+
+		  <div class="carousel-item">
+			<img src="images/indexImage.png" class="d-block w-100" alt="images/indexImage.png">
+			<div class="carousel-caption d-none d-md-block">
+			  <h5>Third slide label</h5>
+			  <p>Some representative placeholder content for the third slide.</p>
+			</div>
+		  </div>
+
+
+
+		</div>
+
+		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+		  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		  <span class="visually-hidden">Previous</span>
+		</button>
+
+		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+		  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		  <span class="visually-hidden">Next</span>
+		</button>
+	  </div>
+
+
+</body>
+
 </html>
+
