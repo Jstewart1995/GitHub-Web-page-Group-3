@@ -40,12 +40,14 @@ header{
 	border-width: auto;
 }
 .carousel-item img{
-	-webkit-background-size: cover;
-	background-size: cover;
+	/*
+	-webkit-background-size: contain;
+	background-size: contain;
 	background-position: center center;
 	background-repeat: no-repeat;
+	*/
 	width: auto;
-	height: 100vh;
+	height: auto;
 	filter:brightness(80%);
 }
 .box{
