@@ -79,6 +79,7 @@ table.bracket {
 
 .logo a{
 	color: rgb(3, 3, 3);
+    font-size: 32px;
 	text-decoration: none;
 }
 .nav_bar{
@@ -91,7 +92,8 @@ table.bracket {
 	display: inline-block;
 }
 .nav_bar li a{
-	padding: 15px;
+	font-size: 20px;
+    padding: 15px;
 }
 .nav_bar li a:hover{
 	background: #7c7a7a;
