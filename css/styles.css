@@ -1,11 +1,11 @@
 html {
-    width: 100%; 
+     
     background-color: #000;
-    background-image: url("../images/foreset.jpg")
+    
 }
 
 body {
-    width: 80%; 
+    width: 100%; 
     background-color: #fff;
     height: auto;
     margin: 0 auto;
