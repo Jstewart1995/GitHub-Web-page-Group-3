@@ -35,7 +35,7 @@ body {
 	margin: 0;
 	padding: 0;
 	color: black;
-	background-image: linear-gradient(#D9BDAD , #D94625);
+	background-image: linear-gradient(#74706e , #110e0d);
 	font: 1em/1.2 "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
 	
 }
@@ -113,7 +113,7 @@ Layout styles
 }
 
 .nav-bar {
-	background: #D9653B;
+	background: #272423;
 	padding: 0;
 	border-radius: 25px;
 	margin: 10px 0px;
