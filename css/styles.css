@@ -34,6 +34,12 @@ p {
 }
 
 
+.logo{
+	font-family: 'Aclonica';
+	font-size: 25px;
+	padding: 50px;
+	margin-left: 50px;
+}
 
 
 
@@ -71,7 +77,45 @@ table.bracket {
 
 
 
-
+.logo a{
+	color: #fff;
+	text-decoration: none;
+}
+.nav_bar{
+	font-family: 'poppins';
+	font-size: 20px;
+	float: right;
+	list-style: none;
+}
+.nav_bar li{
+	display: inline-block;
+}
+.nav_bar li a{
+	padding: 15px;
+}
+.nav_bar li a:hover{
+	background: #7c7a7a;
+	color: #fff;
+	border: 1px solid #000;
+	border-radius: 5px;
+	border-width: auto;
+}
+.carousel-item img{
+	/*
+	-webkit-background-size: contain;
+	background-size: contain;
+	background-position: center center;
+	background-repeat: no-repeat;
+	*/
+	width: auto;
+	height: auto;
+	filter:brightness(80%);
+}
+.box{
+	background: rgba(0,0,0,0.5);
+	width: 100%;
+	padding: 25px;
+}
 
 
 
