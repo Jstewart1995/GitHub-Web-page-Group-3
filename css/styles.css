@@ -1,13 +1,13 @@
 html {
      
-    background-color: #000;
+    background-color: red;
     
 }
 
 body {
     width: 100%; 
-    background-color: #fff;
-    height: 2000px;
+    background-color: #2d2424;
+    height: auto;
     margin: 0 auto;
 }
 
@@ -84,7 +84,18 @@ h1{text-align: center;
 
 
 
+.footer {
+  background-color: #b85c38;
+  padding: 50px 0 20px;
+  text-align: center;
+  clear:both;
+}
 
+.footer-link {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
 
 
 
