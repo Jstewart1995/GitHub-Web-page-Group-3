@@ -1,13 +1,13 @@
 html {
-    width: 100%; 
+     
     background-color: #000;
-    background-image: url("../images/foreset.jpg")
+    
 }
 
 body {
-    width: 80%; 
+    width: 100%; 
     background-color: #fff;
-    height: auto;
+    height: 2000px;
     margin: 0 auto;
 }
 
@@ -15,7 +15,7 @@ body {
 header {
     width: 100%;
     height: 100px;
-    background-color: #a4a2f2;
+    background-color: #fffefe;
 }
 
 header h1 {
@@ -35,7 +35,7 @@ p {
 
 
 .logo{
-	font-family: 'Aclonica';
+	font-family: 'Papyrus';
 	font-size: 25px;
 	padding: 50px;
 	margin-left: 50px;
@@ -45,32 +45,12 @@ p {
 
 
 
-
-
-
-
-
-table.bracket {
-    border-collapse: collapse;
-    border: none;
+h1{text-align: center;
 }
 
-.bracket td {
-    vertical-align: middle;
-    width: 40em;
-    margin: 0;
-    padding: 10px;
-}
 
-.bracket td p {
-    border-bottom: solid 1px black;
-    margin: 0;
-    padding: 5px 5px 5px 5px;
-}
 
-.bracket th{
-    text-align:center;
-}
+
 
 
 
@@ -78,28 +58,11 @@ table.bracket {
 
 
 .logo a{
-	color: #fff;
+	color: rgb(3, 3, 3);
+    font-size: 32px;
 	text-decoration: none;
 }
-.nav_bar{
-	font-family: 'poppins';
-	font-size: 20px;
-	float: right;
-	list-style: none;
-}
-.nav_bar li{
-	display: inline-block;
-}
-.nav_bar li a{
-	padding: 15px;
-}
-.nav_bar li a:hover{
-	background: #7c7a7a;
-	color: #fff;
-	border: 1px solid #000;
-	border-radius: 5px;
-	border-width: auto;
-}
+
 .carousel-item img{
 	/*
 	-webkit-background-size: contain;
