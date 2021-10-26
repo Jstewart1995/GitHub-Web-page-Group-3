@@ -122,6 +122,8 @@ table.bracket {
 .footer {
   background-color: #b85c38;
   padding: 50px 0 20px;
+  text-align: center;
+  clear:both;
 }
 
 .footer-link {
