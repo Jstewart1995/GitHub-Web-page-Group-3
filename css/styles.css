@@ -7,7 +7,7 @@ html {
 body {
     width: 100%; 
     background-color: #fff;
-    height: 1000px;
+    height: 2000px;
     margin: 0 auto;
 }
 
@@ -45,7 +45,8 @@ p {
 
 
 
-
+h1{text-align: center;
+}
 
 
 
@@ -61,26 +62,7 @@ p {
     font-size: 32px;
 	text-decoration: none;
 }
-.nav_bar{
-	font-family: 'poppins';
-	font-size: 20px;
-	float: right;
-	list-style: none;
-}
-.nav_bar li{
-	display: inline-block;
-}
-.nav_bar li a{
-	font-size: 20px;
-    padding: 15px;
-}
-.nav_bar li a:hover{
-	background: #7c7a7a;
-	color: rgb(255, 255, 255);
-	border: 1px solid rgb(12, 11, 11);
-	border-radius: 5px;
-	border-width: auto;
-}
+
 .carousel-item img{
 	/*
 	-webkit-background-size: contain;
