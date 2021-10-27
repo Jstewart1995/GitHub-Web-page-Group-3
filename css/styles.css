@@ -1,16 +1,16 @@
 html {
      
-    background-color: rgb(240, 16, 16);
+    background-color: #EADCA6;
     
 }
 body {
-	background-color: rgb(26, 11, 11);
+	background-color: #EADCA6;
 
 }
 header {
     width: 100%;
     height: 100px;
-    background-color: #e919d8;
+    background-color: #2d2424;
 }
 h2 {
     padding-left: .5em;
@@ -30,7 +30,6 @@ hr {
 	margin: 100px auto;
 	border-bottom: none;
 }
-
 
 
 /*content images and text format*/
@@ -53,6 +52,7 @@ img {
 
 .levi {
 	padding: 2%;
+	
 }
 .lev-image {
 	width: 50%;
@@ -78,6 +78,17 @@ img {
 	width: 100%;
 }
 
+.aan-image{
+	width: 50%;
+	height:auto;
+	float: left;
+	padding: 1%;
+}
+
+.aan-text{
+	width: 50%;
+	float:right;
+}
 
 /*Header Title*/
 .logo {
@@ -85,6 +96,7 @@ img {
 	font-size: 25px;
 	padding: 50px;
 	margin-left: 50px;
+	color: #EAF6F6;
 }
 
 /*carousel images*/
@@ -109,7 +121,7 @@ img {
 }
 
 .footer-link {
-  color: #11999E;
+  color: #E2C275;
   font-family: 'Montserrat', sans-serif;
   margin: 10px 20px;
   text-decoration: none;
