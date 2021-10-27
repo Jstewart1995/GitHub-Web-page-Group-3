@@ -84,6 +84,8 @@ hr {
 .bat-image{
 width: 100px;
 height:auto;
+float:right;
+margin-right: 925px;
 }
 
 .bat-text{
