@@ -62,7 +62,7 @@ img {
 .levi {
 	padding: 2%;
 	width: 100%;
-	height: 500px;
+	height: 450px;
 }
 .lev-image {
 	width: 50%;
@@ -88,6 +88,11 @@ img {
 	width: 100%;
 }
 
+
+.aang{
+	padding: 2%;
+	height: 420px;
+}
 .aan-image{
 	width: 50%;
 	height:auto;
