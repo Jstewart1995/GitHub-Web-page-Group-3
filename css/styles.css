@@ -11,9 +11,16 @@ header {
     width: 100%;
     height: 100px;
     background-color: #2d2424;
+	font-family: 'Papyrus';
+	font-size: 30px;
+	padding: 100px;
+	color: #EAF6F6;
+
+}
+.pgHeader{
+	padding: 5%;
 }
 h2 {
-    padding-left: .5em;
 	text-align: center;
 }
 p {
@@ -25,9 +32,9 @@ h1 {
 }
 hr {
 	border: dotted #EAF6F6 6px;
-	width: 100%;
+	width: 70%;
 	text-align: center;
-	margin: 100px auto;
+	margin: 30px auto;
 	border-bottom: none;
 }
 
@@ -37,6 +44,8 @@ img {
 	width:100%;
 	height:auto;
 }
+
+
 .batman {
 	padding: 2%;
 }
@@ -52,7 +61,8 @@ img {
 
 .levi {
 	padding: 2%;
-	
+	width: 100%;
+	height: 500px;
 }
 .lev-image {
 	width: 50%;
@@ -84,19 +94,9 @@ img {
 	float: left;
 	padding: 1%;
 }
-
 .aan-text{
 	width: 50%;
 	float:right;
-}
-
-/*Header Title*/
-.logo {
-	font-family: 'Papyrus';
-	font-size: 25px;
-	padding: 50px;
-	margin-left: 50px;
-	color: #EAF6F6;
 }
 
 /*carousel images*/
