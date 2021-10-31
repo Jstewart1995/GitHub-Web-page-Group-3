@@ -1,5 +1,5 @@
 html {
-	background: linear-gradient(to bottom, #201a1a 0%, #72412e 100%);
+	background: linear-gradient(to bottom, #201a1a 0%, #5e3e31 100%);
 }
 body {
 	background-color: #EADCA6;
@@ -54,6 +54,7 @@ img {
 	height: 450px;
 }
 .bat-image img {
+	border-radius: 25px;
 	width:70%;
 	float:right;
 	padding: 1%;
@@ -69,6 +70,7 @@ img {
 	height: 450px;
 }
 .lev-image img {
+	border-radius: 25px;
 	width: 50%;
 	height: auto;
 	float: left;
@@ -86,6 +88,7 @@ img {
 	height: 450px;
 }
 .nar-image img {
+	border-radius: 25px;
 	width:70%;
 	float:right;
 	padding: 1%;
@@ -101,6 +104,7 @@ img {
 	height: 450px;
 }
 .aan-image img {
+	border-radius: 25px;
 	width: 50%;
 	height:auto;
 	float: left;
